@@ -1,0 +1,36 @@
+.getStart{
+    background-color: #F25f3A;
+    color: white;
+    position: relative;
+    height: 230px;
+    overflow: hidden;
+    justify-content: center;
+ 
+}
+.getStart h2{
+    font-size: 34px;
+    line-height: 2.5rem;
+}
+
+
+.getStart-button{
+    background: white;
+    color: #F25f3A;
+    padding: .7rem 1.7rem;
+    border-radius: 1.3rem;
+    border: none;
+    cursor:pointer;
+    font-size: 16px;
+    z-index: 2;
+
+}
+.getStart-button:hover{
+    background-color: black;
+}
+
+.content_bg {
+    background-image: url('../../../../public/assets/bg-simplify-section-desktop.svg');
+    height: 230px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

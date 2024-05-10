@@ -1,0 +1,20 @@
+/* header */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 1.5rem 0;
+  }
+  .nav-links{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-links li{
+    margin-left: 24px;
+  }
+ .nav-links li:hover{
+    color: #999999;
+  }
