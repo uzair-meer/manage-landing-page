@@ -9,9 +9,12 @@ import "./footer.style.css";
 export default function Footer() {
   return (
     <div className="footer container ">
-      <div className="flex-col">
+      <div className="flex-col footer-logo">
+        <div className="mobile">
+          <p>Copyright © 2024, All Rights Reserved</p>
+        </div>
         <Image src={logo} alt="logo" width={195} />
-        <div className="flex mt-4">
+        <div className="flex footer-social-links mt-4">
           {footerSocialLinks.map((link, index) => (
             <Image
               src={link.icon}
@@ -40,8 +43,8 @@ export default function Footer() {
           <input type="text" placeholder="Updated in your Inbox" />
           <button className="footer-button">Go</button>
         </div>
-        <div className="mt-4">
-          <p>Copyright © 2022, All Rights Reserved</p>
+        <div className="mt-4 desktop">
+          <p>Copyright © 2024, All Rights Reserved</p>
         </div>
       </div>
     </div>

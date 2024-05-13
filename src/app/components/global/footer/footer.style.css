@@ -4,6 +4,7 @@
     list-style: none;
     color: white;
     display: flex;
+    gap: 1rem;
     justify-content: space-between;
     align-items: flex-start;
     padding: 2.6rem 1.4rem;
@@ -32,7 +33,6 @@
 }
 .footer-link-items{
     cursor: pointer;
-
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -54,3 +54,49 @@
     background-color: #FF6633;
     transition-duration: 500ms;
 }
+.mobile{
+    display: none;
+  }
+  .desktop{
+    display: block;
+  }
+
+@media (max-width: 770px) {
+    /* On screens smaller than 770px, switch to a vertical layout */
+  .footer {
+    flex-direction: column;
+    gap: 2rem;
+    flex-flow: column-reverse;
+  }
+  input{
+    width: 70%;
+  }
+  .footer-links{
+    justify-content: space-between;
+    width: 100%;
+  }
+  .footer-logo{
+    flex-direction: column-reverse;
+    width: 100%;
+    align-items: center;
+    gap: 2rem;
+  }
+  .footer-social-links{
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .flex-col{
+    width: 100%;
+  }
+  .footer-link-items{
+    padding: 0 1.3rem;
+  }
+  .mobile{
+    display: block;
+  }
+  .desktop{
+    display: none;
+  }
+  }

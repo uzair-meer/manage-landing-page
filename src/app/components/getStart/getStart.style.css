@@ -34,3 +34,29 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+
+
+
+
+@media (max-width: 770px) {
+    /* On screens smaller than 750px, switch to a vertical layout */
+.getStart, .content_bg{
+    height: 384px;
+}
+.getStart-content{
+    width: fit-content;
+    margin: auto;
+}
+.getStart h2{
+    font-size: 3rem;
+    line-height: 1.25;
+    text-align: center;
+}
+
+.getStart-button{
+    margin: auto;
+    margin-top: 3rem;
+}
+
+  }

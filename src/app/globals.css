@@ -2,6 +2,10 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  ul{
+    list-style: none;
   }
   main{
     position: relative;
@@ -177,3 +181,29 @@ line-height: 2.5rem;
 
 
 
+@media (max-width: 770px) {
+    /* On screens smaller than 750px, switch to a vertical layout */
+    .flex {
+      flex-direction: column;
+      width: 100%;
+      margin: auto;
+      gap: 0;
+    }
+
+    
+    .w-30, .w-50, .w-70, .w-28, .w-24{
+        width: 100%;
+       }
+    
+  
+    .container{
+        padding: 0 1.2rem;
+    }
+    .line-1, .line-25, .line-15, .line-175{
+        line-height: normal;
+    }
+    .mobile-show{
+        display: block;
+    }
+  
+  }

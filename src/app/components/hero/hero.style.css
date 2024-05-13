@@ -1,0 +1,43 @@
+
+.hero-img{
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+@media screen and (max-width: 770px) {
+.hero-content{
+flex-direction: column-reverse;
+}
+
+.hero {
+ width: 80%;
+ margin: auto;
+ text-align: center;
+
+}
+
+
+
+.hero-button{
+  margin-bottom: 8rem;
+}
+  }
+
+
+
+@media screen and (max-width: 570px) {
+  .hero {
+   width: 100%;
+   margin:auto ;
+   text-align: center;
+  }
+  /* Change the order of the divs for mobile layout */
+ 
+
+
+  
+  .f-46{
+    font-size: 36px;
+  }
+ 
+    }

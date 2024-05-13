@@ -15,7 +15,7 @@ export default function Testimonials() {
         ))}
       </div>
 
-      <div className="my-4 content-center flex ">
+      <div className="my-4 content-center flex testimonial-button">
         <Button color={"button-orange"} />
       </div>
     </div>
