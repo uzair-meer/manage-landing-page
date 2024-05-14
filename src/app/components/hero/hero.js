@@ -4,8 +4,8 @@ import intro from "../../../../public/assets/illustration-intro.svg";
 import "./hero.style.css";
 export default function Hero() {
   return (
-    <div className="container hero mt-40">
-      <div className="flex hero-content">
+    <div className="container hero w-80 mt-40">
+      <div className="flex   hero-content">
         <div className="flex-col  w-50 mt-26 line-1">
           <h1 className="w-70 line-1 f-46">
             Bring everyone together to build better products
@@ -18,7 +18,7 @@ export default function Hero() {
             <Button color={"button-orange"} />
           </div>
         </div>
-        <div className="w-50 ">
+        <div>
           <Image alt="illustration" src={intro} className="hero-img" />
         </div>
       </div>

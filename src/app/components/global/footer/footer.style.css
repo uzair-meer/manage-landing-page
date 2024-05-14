@@ -1,6 +1,9 @@
 /* footer */
+.foot{
+  background-color: #1d1e25;
+
+}
 .footer{
-    background-color: #1d1e25;
     list-style: none;
     color: white;
     display: flex;
@@ -61,8 +64,8 @@
     display: block;
   }
 
-@media (max-width: 770px) {
-    /* On screens smaller than 770px, switch to a vertical layout */
+@media (max-width: 760px) {
+    /* On screens smaller than 760px, switch to a vertical layout */
   .footer {
     flex-direction: column;
     gap: 2rem;

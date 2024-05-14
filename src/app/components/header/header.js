@@ -16,8 +16,8 @@ export default function Header() {
     setIsOpen(!isOpen);
   };
   return (
-    <div className="container">
-      <nav className="nav-bar">
+    <div className="container w-80">
+      <nav className="nav-bar ">
         <div className="pt-8">
           <Image src={logo} alt="logo" />
         </div>

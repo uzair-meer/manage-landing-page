@@ -111,10 +111,15 @@
     cursor: pointer;
 }
 
+.w-80{
+    width: 85%;
+    margin: auto;
+}
 
 
-
-
+.mt-15{
+    margin-top: 1.5rem;
+}
 .mt-4{
     margin-top: 4rem;
 }
@@ -132,9 +137,7 @@
 .my-1{
     margin: 1rem 0;
 }
-.w-70{
-    width: 60%;
-}
+
 
 .w-full{
     width: 100%;
@@ -180,7 +183,7 @@ line-height: 2.5rem;
 
 
 
-@media (max-width: 770px) {
+@media (max-width: 760px) {
     /* On screens smaller than 750px, switch to a vertical layout */
     .flex {
       flex-direction: column;
@@ -207,9 +210,21 @@ line-height: 2.5rem;
   .circle{
     margin-left: -8px;
   }
- .header-img{
-    position: absolute;
-    right: -32rem;
-    top: -18rem;
- }
+
   }
+.mt-0{
+    margin-top: 0;
+}
+
+
+
+
+@media (max-width: 860px) {
+  
+    
+     .w-80{
+        width: 100%;
+       }
+    
+
+}
