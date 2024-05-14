@@ -144,7 +144,7 @@
 }
 
 .w-28{
-    width: 28rem;
+    max-width: 28rem;
 }
 .w-24{
 width: 402px;

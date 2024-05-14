@@ -7,7 +7,7 @@ export default function Hero() {
     <div className="container hero w-80 mt-40">
       <div className="flex   hero-content">
         <div className="flex-col  w-50 mt-26 line-1">
-          <h1 className="w-70 line-1 f-46">
+          <h1 className="w-28 line-1 f-46">
             Bring everyone together to build better products
           </h1>
           <p className="gray w-70 mt-48 line-175">
