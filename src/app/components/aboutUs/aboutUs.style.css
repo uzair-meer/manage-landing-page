@@ -10,8 +10,8 @@
   margin-left:36px ;
 }
 
-@media (max-width: 760px) {
-    /* On screens smaller than 760px, switch to a vertical layout */
+@media (max-width: 770px) {
+    /* On screens smaller than 770px, switch to a vertical layout */
     .about-content{
       width: 80%;
       margin: auto;
@@ -50,7 +50,7 @@
   }
 
   @media (max-width: 570px) {
-    /* On screens smaller than 760px, switch to a vertical layout */
+    /* On screens smaller than 770px, switch to a vertical layout */
   .feature{
     width: 100%;
   }

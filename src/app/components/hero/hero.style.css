@@ -4,7 +4,7 @@
   height: auto;
   text-align: center;
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 770px) {
 .hero-content{
 flex-direction: column-reverse;
 }
@@ -13,9 +13,13 @@ flex-direction: column-reverse;
  width: 80%;
  margin: auto;
  text-align: center;
+ margin-top: 40px;
 
 }
 
+.hero .mt-26{
+  margin-top: 0;
+}
 
 
 .hero-button{
@@ -30,6 +34,7 @@ flex-direction: column-reverse;
    width: 100%;
    margin:auto ;
    text-align: center;
+   margin-top: 40px;
   }
   /* Change the order of the divs for mobile layout */
  
