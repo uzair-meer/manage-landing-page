@@ -181,7 +181,7 @@ line-height: 2.5rem;
 
 
 
-@media (max-width: 770px) {
+@media (max-width: 760px) {
     /* On screens smaller than 750px, switch to a vertical layout */
     .flex {
       flex-direction: column;
