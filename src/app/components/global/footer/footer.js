@@ -8,7 +8,7 @@ import {
 import "./footer.style.css";
 export default function Footer() {
   return (
-    <div className="  foot">
+    <div className=" px-2 foot">
       <div className="footer w-80">
         <div className="flex-col footer-logo">
           <div className="mobile">

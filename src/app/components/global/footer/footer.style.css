@@ -10,7 +10,7 @@
     gap: 1rem;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 2.6rem 1.4rem;
+    padding: 2.6rem 0;
     
   }
   input{
@@ -87,7 +87,7 @@
   .footer-social-links{
     flex-direction: row;
     width: 80%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
   }
   .flex-col{
