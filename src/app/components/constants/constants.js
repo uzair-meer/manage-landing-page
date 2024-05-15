@@ -66,7 +66,7 @@ export const features = [
   },
   {
     id: 2,
-    title: " advanced built-in reports   ",
+    title: " Advanced built-in reports   ",
     description:
       "See how your day-to-day tasks fit into the wider vision. Go fromtracking progress at the milestone level all the way down to thesmallest of details. Never lose sight of the bigger pictureagain.",
   },

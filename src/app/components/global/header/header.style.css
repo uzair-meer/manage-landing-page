@@ -10,11 +10,10 @@
     cursor: pointer;
     display: flex;
     justify-content: space-between;
+    gap: 1.5rem;
     align-items: center;
   }
-  .nav-links li{
-    margin-left: 24px;
-  }
+  
  .nav-links li:hover{
     color: #999999;
   }
@@ -47,7 +46,7 @@ display: none;
 
 
 @media (max-width: 760px) {
-  /* On screens smaller than 750px, switch to a vertical layout */
+  /* On screens smaller than 760px, switch to a vertical layout */
 .nav-links{
 display: none;
 }

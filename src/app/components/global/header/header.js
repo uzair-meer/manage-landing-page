@@ -1,13 +1,12 @@
 "use client";
 import { useState } from "react";
+import Image from "next/image";
 import { IoMenu } from "react-icons/io5";
 import { IoClose } from "react-icons/io5";
-
-import Image from "next/image";
-import logo from "../../../../public/assets/logo.svg";
+import logo from "../../../../../public/assets/logo.svg";
 import "./header.style.css";
 import { navLinks } from "@/app/components/constants/constants";
-import Button from "../common/components/button";
+import Button from "../../common/components/button";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,25 +15,25 @@ export default function Header() {
     setIsOpen(!isOpen);
   };
   return (
-    <div className="container w-80">
+    <div className="container ">
       <nav className="nav-bar ">
         <div className="pt-8">
           <Image src={logo} alt="logo" />
         </div>
-        <div className="nav-links ">
+        <div className="nav-links">
           {navLinks.map((link, index) => (
             <li key={index}>{link}</li>
           ))}
         </div>
-        <div>
-          <span className="desktop-button">
-            <Button color={"button-orange"} />
-          </span>
-        </div>
+        <span className="desktop-button">
+          <Button color={"button-orange"} />
+        </span>
         <div className={`${isOpen ? "block" : "hidden"} mobile-nav `}>
           <ul className="flex-col items-center gap-1">
             {navLinks.map((nav, index) => (
-              <li key={index}> {nav}</li>
+              <li key={index} className="ml">
+                {nav}
+              </li>
             ))}
           </ul>
         </div>

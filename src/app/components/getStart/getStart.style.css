@@ -2,7 +2,6 @@
     background-color: #F25f3A;
     color: white;
     position: relative;
-    height: 230px;
     overflow: hidden;
     justify-content: center;
  
@@ -30,26 +29,23 @@
 
 .content_bg {
     background-image: url('../../../../public/assets/bg-simplify-section-desktop.svg');
-    height: 230px;
+    height: auto;
+    padding: 6rem 0;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 
 
-
-
 @media (max-width: 760px) {
     /* On screens smaller than 750px, switch to a vertical layout */
-.getStart, .content_bg{
-    height: 384px;
-}
+
 .getStart-content{
     width: fit-content;
     margin: auto;
 }
 .getStart h2{
-    font-size: 3rem;
+    font-size: 44px;
     line-height: 1.25;
     text-align: center;
 }

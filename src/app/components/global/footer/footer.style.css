@@ -5,7 +5,7 @@
 }
 .footer{
     list-style: none;
-    color: white;
+    color: lightgray;
     display: flex;
     gap: 1rem;
     justify-content: space-between;
@@ -18,9 +18,8 @@
     border: none;
     outline: none;
     color: gray;
-    text-align: center;
+    padding: .7rem;
     font-size: 1rem;
-    padding: 0 1.3rem;
     
   }
 .flex-col {
@@ -70,15 +69,17 @@
     flex-direction: column;
     gap: 2rem;
     flex-flow: column-reverse;
+    padding: 2rem 0;
   }
   input{
-    width: 70%;
+    flex: 1 1;
   }
   .footer-links{
     justify-content: space-between;
     width: 100%;
   }
   .footer-logo{
+    margin-top: 1rem;
     flex-direction: column-reverse;
     width: 100%;
     align-items: center;
@@ -94,7 +95,7 @@
     width: 100%;
   }
   .footer-link-items{
-    padding: 0 1.3rem;
+    padding: 0 ;
   }
   .mobile{
     display: block;
@@ -102,4 +103,17 @@
   .desktop{
     display: none;
   }
+  }
+
+
+
+  /* place holder */
+
+  ::placeholder {
+    color: rgb(165, 163, 163);
+    opacity: 1; /* Firefox */
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12-18 */
+    color: rgb(165, 163, 163);
   }

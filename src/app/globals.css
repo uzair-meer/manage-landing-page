@@ -13,6 +13,8 @@
   .container{
       padding: 0 1.5rem;
       position: relative;
+      max-width: 1440px;
+      margin: auto;
   }
 .flex{
     display: flex;
@@ -32,10 +34,11 @@
     top: -22rem;
 }
   .primary{
-    padding: .9rem 1.8rem;
+    padding: .9rem 1.5rem;
     border-radius: 1.3rem;
    cursor: pointer;
    text-align: center;
+   font-size: 15px;
    border: none;
   }
  .primary:hover{
@@ -86,7 +89,7 @@
 .circle{
     border-radius: 50%;
     background-color: #F25f3A;
-    padding:  0.5rem;
+    padding: 0.6rem 0.5rem;
     text-align: center;
     color: white;
 }
@@ -103,7 +106,6 @@
     background: #F25f3A;
     color: white;
     cursor: pointer;
-    max-width: 140px;
 }
 .button-white{
     background: white;
@@ -115,7 +117,9 @@
     width: 85%;
     margin: auto;
 }
-
+.w-60{
+    width: 61%;
+}
 
 .mt-15{
     margin-top: 1.5rem;
@@ -139,7 +143,7 @@
 }
 
 .px-2{
-    padding: 0 2rem;
+    padding: 0 1.5rem;
 }
 .w-full{
     width: 100%;
@@ -195,7 +199,7 @@ line-height: 2.5rem;
     }
 
     
-    .w-30, .w-50, .w-70, .w-28, .w-24{
+    .w-30, .w-50, .w-70, .w-28, .w-24, .w-60{
         width: 100%;
        }
     
@@ -203,17 +207,26 @@ line-height: 2.5rem;
     .container{
         padding: 0 1.2rem;
     }
-    .line-1, .line-25, .line-15, .line-175{
+    .line-1, .line-25,  .line-175{
         line-height: normal;
     }
     .mobile-show{
         display: block;
     }
+ 
+  .px-2{
+    padding: 2.25rem 1.5rem;
+  }
+  .footer-img{
+    margin-top: 1rem;
+  }
+  .mt-4{
+    margin-top: 0;
+  }
   .circle{
-    margin-left: -8px;
+    margin-left: -10px;
   }
-
-  }
+    }
 .mt-0{
     margin-top: 0;
 }
@@ -224,9 +237,12 @@ line-height: 2.5rem;
 @media (max-width: 860px) {
   
     
-     .w-80{
+     .w{
         width: 100%;
        }
     
 
 }
+
+
+
