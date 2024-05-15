@@ -6,7 +6,7 @@ Button;
 export default function AboutUs() {
   return (
     <div className="container feature">
-      <div className="flex  space-between">
+      <div className="flex  gap-0">
         <div className="flex-col about-content w-50 ">
           <h1 className="w-28 f-34">What&apos;s different about Manage? </h1>
           <p className="gray w-24 mt-40 line-15">
