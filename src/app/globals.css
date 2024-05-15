@@ -40,6 +40,7 @@
    text-align: center;
    font-size: 15px;
    border: none;
+   min-width: 131px;
   }
  .primary:hover{
     background-color: #FF6633;
