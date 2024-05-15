@@ -9,13 +9,13 @@ export default function Testimonials() {
       <h4 className="center f-34 line-25">
         What&apos;s different about Manage?
       </h4>
-      <div className="flex manage p-20">
+      <div className="flex manage ">
         {team.map((team, index) => (
           <Card key={team} name={team.name} img={team.img} quote={team.quote} />
         ))}
       </div>
 
-      <div className="my-4 content-center flex ">
+      <div className="my-4 content-center flex testimonial-button">
         <Button color={"button-orange"} />
       </div>
     </div>

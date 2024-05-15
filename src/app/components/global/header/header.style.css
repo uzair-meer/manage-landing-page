@@ -10,11 +10,56 @@
     cursor: pointer;
     display: flex;
     justify-content: space-between;
+    gap: 1.5rem;
     align-items: center;
+    font-size: 15px;
   }
-  .nav-links li{
-    margin-left: 24px;
-  }
+  
  .nav-links li:hover{
     color: #999999;
   }
+
+.hidden{
+  display: none;
+
+}
+.block{
+  display: block;
+}
+
+.ham-burger{
+cursor: pointer;
+display: none;
+}
+
+.mobile-nav{
+  /* absolute top-full left-0 bg-white w-full z-20 */
+  position: absolute;
+  width: 90%;
+  top: 6rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin: auto;
+  background-color: white;
+  z-index: 20;
+}
+
+
+
+@media (max-width: 760px) {
+  /* On screens smaller than 760px, switch to a vertical layout */
+.nav-links{
+display: none;
+}
+.mobile-nav li{
+padding: .5rem 0;
+font-weight: bold;
+}
+
+.desktop-button{
+  display: none;
+}
+.ham-burger{
+  display: block;
+}
+}

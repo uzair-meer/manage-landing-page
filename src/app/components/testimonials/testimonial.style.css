@@ -1,48 +1,66 @@
  /* testimonials */
  .testimonials{
-    margin-top: 6.25rem;
-  }
-  
-
+  margin-top: 6.25rem;
+}
 
 /* manage */
 .manage{
-    position: relative;
-    max-width: 1150px;
-    margin: auto;
-    gap: 1.5rem;
-    margin-top: 90px;
+  position: relative;
+  max-width: 1150px;
+  margin: auto;
+  gap: 1.5rem;
+  margin-top: 90px;
 }
 .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 1.5rem;
-    background-color: #fafafa;
-    border-radius: 8px;
-    width: 354px;
-    height: 212px;
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #fafafa;
+  border-radius: 8px;
+ 
+  position: relative;
 }
 
 .card p{
-    line-height: 20px;
-    font-size: 14px;
-    margin-top: 24px;
+  line-height: 20px;
+  font-size: 14px;
+  margin-top: 24px;
 
 }
 
 .card h5{
-    line-height: "1.75rem";
-    font-size: 18px;
-    margin-top: 34px;
+  line-height: "1.75rem";
+  font-size: 18px;
+  margin-top: 34px;
 }
 
 
 .card-img{
-   width: 64px;
-   height: 64px;
-   position: absolute;
-   top: -2rem;
+ width: 64px;
+ height: 64px;
+ position: absolute;
+ top: -2rem;
 }
+@media (max-width: 760px) {
+    /* On screens smaller than 750px, switch to a vertical layout */
+    .card {
+      width: 100%;
+      
+    }
+   .p-20{
+    padding: 0;
+   }
+    .testimonial-button{
+      display: flex;
+      align-items: center;
+      margin: 4rem 0;
+    }
+   .testimonials h4{
+    margin-bottom: 5rem;
+   }
+   .card {
+    margin-top: 2rem;
+   }
+  }

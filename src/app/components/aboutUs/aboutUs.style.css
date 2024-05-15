@@ -1,0 +1,66 @@
+
+.title-circle{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  background-color: transparent;
+}
+
+.about-card p{
+  margin-left:36px ;
+}
+
+@media (max-width: 760px) {
+    /* On screens smaller than 760px, switch to a vertical layout */
+    .about-content{
+      width: 90%;
+      margin: auto;
+      text-align: center;
+      padding: 0%;
+    }
+  .feature{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 0%;
+  }
+  .about-card{
+    margin-top: 2.5rem;
+  }
+
+  
+  .about-card p{
+    text-align: left;
+    font-size: 14px;
+  }
+  .about-card .space-x-6{
+    margin-left: 0;
+  }
+  .about-card{
+    padding: 0 1rem;
+  }
+  .title-circle{
+    gap: 0.6rem .5rem;
+    background-color: rgb(255, 181, 178);
+  }
+  .about-card p{
+    margin-left:0 ;
+    margin-top: 0;
+  }
+  .feature .gap-2{
+   gap: 0;
+  }
+ .f-18{
+  font-size: 1rem
+ }
+  }
+
+  @media (max-width: 570px) {
+    /* On screens smaller than 760px, switch to a vertical layout */
+  .feature{
+    width: 100%;
+  }
+
+
+  }
+

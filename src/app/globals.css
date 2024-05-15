@@ -2,6 +2,10 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  ul{
+    list-style: none;
   }
   main{
     position: relative;
@@ -9,6 +13,8 @@
   .container{
       padding: 0 1.5rem;
       position: relative;
+      max-width: 1440px;
+      margin: auto;
   }
 .flex{
     display: flex;
@@ -28,11 +34,13 @@
     top: -22rem;
 }
   .primary{
-    padding: .9rem 1.8rem;
+    padding: .9rem 1.5rem;
     border-radius: 1.3rem;
    cursor: pointer;
    text-align: center;
+   font-size: 15px;
    border: none;
+   min-width: 131px;
   }
  .primary:hover{
     background-color: #FF6633;
@@ -66,7 +74,7 @@
     gap: 1rem;
 }
 .gap-2{
-    gap: 2.3rem;
+    gap: 2rem;
 }
 
 .space-x-6{
@@ -82,7 +90,6 @@
 .circle{
     border-radius: 50%;
     background-color: #F25f3A;
-   
     padding: 0.5rem;
     text-align: center;
     color: white;
@@ -100,7 +107,6 @@
     background: #F25f3A;
     color: white;
     cursor: pointer;
-    max-width: 140px;
 }
 .button-white{
     background: white;
@@ -108,10 +114,17 @@
     cursor: pointer;
 }
 
+.w-80{
+    width: 85%;
+    margin: auto;
+}
+.w-60{
+    width: 61%;
+}
 
-
-
-
+.mt-15{
+    margin-top: 1.5rem;
+}
 .mt-4{
     margin-top: 4rem;
 }
@@ -129,16 +142,16 @@
 .my-1{
     margin: 1rem 0;
 }
-.w-70{
-    width: 60%;
-}
 
+.px-2{
+    padding: 0 1.5rem;
+}
 .w-full{
     width: 100%;
 }
 
 .w-28{
-    width: 28rem;
+    max-width: 28rem;
 }
 .w-24{
 width: 402px;
@@ -174,6 +187,66 @@ line-height: 2.5rem;
 }
 
 /* responsive design */
+
+
+
+@media (max-width: 760px) {
+    /* On screens smaller than 750px, switch to a vertical layout */
+    .flex {
+      flex-direction: column;
+      width: 100%;
+      margin: auto;
+      gap: 0;
+    }
+
+    
+    .w-30, .w-50, .w-70, .w-28, .w-24, .w-60{
+        width: 100%;
+       }
+    
+  
+    .container{
+        padding: 0 1.2rem;
+    }
+    .line-1, .line-25,  .line-175{
+        line-height: normal;
+    }
+    .mobile-show{
+        display: block;
+    }
+ 
+  .px-2{
+    padding: 2.25rem 1.5rem;
+  }
+  .footer-img{
+    margin-top: 1rem;
+  }
+  .mt-4{
+    margin-top: 0;
+  }
+  .circle{
+    margin-left: -10px;
+    padding: 0.6rem 0.5rem;
+  }
+    }
+.mt-0{
+    margin-top: 0;
+}
+
+
+.gap-0{
+    gap: 0;
+}
+
+@media (max-width: 860px) {
+  
+    
+     .w{
+        width: 100%;
+       }
+    
+
+}
 
 
 
